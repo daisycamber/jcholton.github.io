@@ -10,6 +10,7 @@
 			<key>Files</key>
 			<array>
 				<string>consolidated.css</string>
+				<string>csshover.htc</string>
 				<string>files</string>
 				<string>images</string>
 				<string>javascript.js</string>

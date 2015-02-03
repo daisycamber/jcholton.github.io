@@ -8,13 +8,14 @@
 			<key>Dictionary</key>
 			<dict>
 				<key>HomePage</key>
-				<string>1-Test</string>
+				<string>1-Home</string>
 			</dict>
 			<key>Files</key>
 			<array/>
 			<key>Subsandwiches</key>
 			<array>
-				<string>1-Test</string>
+				<string>1-Home</string>
+				<string>2-More-stuff</string>
 			</array>
 		</dict>
 	</array>
