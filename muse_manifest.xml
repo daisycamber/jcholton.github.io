@@ -1,7 +1,7 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1423448011360">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1423460003358">
   <folder name="css">
     <file name="site_global.css" crc="3908480481"/>
-    <file name="index.css" crc="319802605" ref="index"/>
+    <file name="index.css" crc="3847738974" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index"/>
@@ -17,14 +17,25 @@
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="placeholder-u115-fr.jpg" crc="320510103" ref="index"/>
-    <file name="placeholder.jpg" crc="4051531941" ref="index"/>
     <file name="placeholdersmall-u318-fr.jpg" crc="102232726" ref="index"/>
     <file name="quote.png" crc="76260345" ref="index"/>
     <file name="footer01.jpg" crc="336616055" ref="index"/>
     <file name="footer02.jpg" crc="4017733999" ref="index"/>
     <file name="footer03.jpg" crc="4137321457" ref="index"/>
-    <file name="heart.png" crc="117585526" ref="index"/>
+    <file name="screen shot 2015-02-08 at 52051 pm-u519-fr.jpg" crc="3786434152" ref="index"/>
+    <file name="screen shot 2015-02-08 at 52625 pm.jpg" crc="151060300" ref="index"/>
+    <file name="programming_oop_wallpaper_by_hexeno-u115-fr.jpg" crc="50334039" ref="index"/>
+    <file name="f3ebc64hzi8yyi1large-u117-fr.jpg" crc="3974313438" ref="index"/>
+    <file name="new mouse side-u119-fr.jpg" crc="415891658" ref="index"/>
+    <file name="programming_oop_wallpaper_by_hexeno.jpg" crc="204644611" ref="index"/>
+    <file name="new mouse front-u722-fr.jpg" crc="469892448" ref="index"/>
+    <file name="model-b-plus-300x225.jpg" crc="4217675465" ref="index"/>
+    <file name="screen shot 2015-02-08 at 75354 pm-u318-a-fr.jpg" crc="275665704" ref="index"/>
+    <file name="images-u336-a-fr.jpg" crc="4112763424" ref="index"/>
+    <file name="url-u324-a-fr.jpg" crc="4093224155" ref="index"/>
+    <file name="new mouse front-u328-a-fr.jpg" crc="4261280729" ref="index"/>
+    <file name="images-u330-a-fr.jpg" crc="406057078" ref="index"/>
+    <file name="images2-u338-a-fr.png" crc="42424889" ref="index"/>
   </folder>
-  <file name="index.html" crc="450586069" mt="1423447929072" redirect="true"/>
+  <file name="index.html" crc="83108404" mt="1423459969023" redirect="true"/>
 </manifest>
