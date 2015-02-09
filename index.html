@@ -1,199 +1,423 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+ <head>
 
-    <title>Blog &ndash; Layout Examples &ndash; Pure</title>
-
-    
-
-
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-
-
-
-<!--[if lte IE 8]>
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
+</script>
   
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2014.2.1.284"/>
+  <title>Adobe Muse Business Template</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?3908480481"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?319802605" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/abel:n4:all.js" type="text/javascript">\x3C/script>');
+</script>
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
+  <![endif]-->
+   </head>
+ <body>
+
+  <!--HTML Widget code-->
   
-<![endif]-->
-<!--[if gt IE 8]><!-->
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
   
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-  
-<!--<![endif]-->
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu77"><!-- group -->
+    <div class="clearfix grpelem" id="u77"><!-- column -->
+     <div class="position_content" id="u77_position_content">
+      <div class="colelem" id="u253"><!-- simple frame --></div>
+      <div class="clearfix colelem" id="pu484-4"><!-- group -->
+       <a class="nonblock nontext clearfix grpelem" id="u484-4" href="http://musefree.com"><!-- content --><p>Holton.io</p></a>
+       <div class="grpelem" id="u309"><!-- custom html -->
+        
+<a href="https://twitter.com/AdobeMuseFree" class="twitter-follow-button" data-lang="en" data-show-screen-name="false" data-size="medium"></a>
 
-
-
-
-
-  
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/layouts/blog.css">
-    <!--<![endif]-->
-  
-
-
-    
-
-    
-
-</head>
-<body>
-
-
-
-
-
-
-
-<div id="layout" class="pure-g">
-    <div class="sidebar pure-u-1 pure-u-md-1-4">
-        <div class="header">
-            <h1 class="brand-title">A Sample Blog</h1>
-            <h2 class="brand-tagline">Creating a blog layout using Pure</h2>
-
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a class="pure-button" href="http://purecss.io">Pure</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="pure-button" href="http://yuilibrary.com">YUI Library</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-
-    <div class="content pure-u-1 pure-u-md-3-4">
-        <div>
-            <!-- A wrapper for all the blog posts -->
-            <div class="posts">
-                <h1 class="content-subhead">Pinned Post</h1>
-
-                <!-- A single blog post -->
-                <section class="post">
-                    <header class="post-header">
-                        <img class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png">
-
-                        <h2 class="post-title">Introducing Pure</h2>
-
-                        <p class="post-meta">
-                            By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-                            Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the <a href="https://speakerdeck.com/tilomitra/pure-bliss">slides from the presentation</a>. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.
-                        </p>
-                    </div>
-                </section>
-            </div>
-
-            <div class="posts">
-                <h1 class="content-subhead">Recent Posts</h1>
-
-                <section class="post">
-                    <header class="post-header">
-                        <img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">
-
-                        <h2 class="post-title">Everything You Need to Know About Grunt</h2>
-
-                        <p class="post-meta">
-                            By <a class="post-author" href="#">Eric Ferraiuolo</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        </p>
-                    </div>
-                </section>
-
-                <section class="post">
-                    <header class="post-header">
-                        <img class="post-avatar" alt="Reid Burke&#x27;s avatar" height="48" width="48" src="img/common/reid-avatar.png">
-
-                        <h2 class="post-title">Photos from CSSConf and JSConf</h2>
-
-                        <p class="post-meta">
-                            By <a class="post-author" href="#">Reid Burke</a> under <a class="post-category" href="#">Uncategorized</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <div class="post-images pure-g">
-                            <div class="pure-u-1 pure-u-md-1-2">
-                                <a href="http://www.flickr.com/photos/uberlife/8915936174/">
-                                    <img alt="Photo of someone working poolside at a resort"
-                                         class="pure-img-responsive"
-                                         src="http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">
-                                </a>
-
-                                <div class="post-image-meta">
-                                    <h3>CSSConf Photos</h3>
-                                </div>
-                            </div>
-
-                            <div class="pure-u-1 pure-u-md-1-2">
-                                <a href="http://www.flickr.com/photos/uberlife/8907351301/">
-                                    <img alt="Photo of the sunset on the beach"
-                                         class="pure-img-responsive"
-                                         src="http://farm8.staticflickr.com/7382/8907351301_bd7460cffb.jpg">
-                                </a>
-
-                                <div class="post-image-meta">
-                                    <h3>JSConf Photos</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="post">
-                    <header class="post-header">
-                        <img class="post-avatar" alt="Andrew Wooldridge&#x27;s avatar" height="48" width="48" src="img/common/andrew-avatar.png">
-
-                        <h2 class="post-title">YUI 3.10.2 Released</h2>
-
-                        <p class="post-meta">
-                            By <a class="post-author" href="#">Andrew Wooldridge</a> under <a class="post-category post-category-yui" href="#">YUI</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-                            We are happy to announce the release of YUI 3.10.2! You can find it now on the Yahoo! CDN, download it directly, or pull it in via npm. We’ve also updated the YUI Library website with the latest documentation.
-                        </p>
-                    </div>
-                </section>
-            </div>
-
-            <div class="footer">
-                <div class="pure-menu pure-menu-horizontal pure-menu-open">
-                    <ul>
-                        <li><a href="http://purecss.io/">About</a></li>
-                        <li><a href="http://twitter.com/yuilibrary/">Twitter</a></li>
-                        <li><a href="http://github.com/yahoo/pure/">GitHub</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
+      </div>
+      <div class="clearfix colelem" id="pu486-4"><!-- group -->
+       <a class="nonblock nontext clearfix grpelem" id="u486-4" href="http://musefree.com"><!-- content --><p>Download free Adobe Muse themes &amp; widgets</p></a>
+       <nav class="MenuBar clearfix grpelem" id="menuu259"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u267"><!-- vertical box -->
+         <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u268"><!-- horizontal box -->
+          <div class="MenuItemLabel NoWrap clearfix grpelem" id="u269-4"><!-- content -->
+           <p>Home</p>
+          </div>
+         </div>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u274"><!-- vertical box -->
+         <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u275"><!-- horizontal box -->
+          <div class="MenuItemLabel NoWrap clearfix grpelem" id="u277-4"><!-- content -->
+           <p>Services</p>
+          </div>
+         </div>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u281"><!-- vertical box -->
+         <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u284"><!-- horizontal box -->
+          <div class="MenuItemLabel NoWrap clearfix grpelem" id="u287-4"><!-- content -->
+           <p>Gallery</p>
+          </div>
+         </div>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u288"><!-- vertical box -->
+         <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u291"><!-- horizontal box -->
+          <div class="MenuItemLabel NoWrap clearfix grpelem" id="u292-4"><!-- content -->
+           <p>Partners</p>
+          </div>
+         </div>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u295"><!-- vertical box -->
+         <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u296"><!-- horizontal box -->
+          <div class="MenuItemLabel NoWrap clearfix grpelem" id="u297-4"><!-- content -->
+           <p>Contacts</p>
+          </div>
+         </div>
+        </div>
+       </nav>
+      </div>
+      <div class="Button clearfix colelem" id="buttonu173"><!-- container box -->
+       <div class="clearfix colelem" id="pu177-4"><!-- group -->
+        <div class="clearfix grpelem" id="u177-4"><!-- content -->
+         <p>Donec efficitur</p>
+        </div>
+        <div class="clearfix grpelem" id="u176-4"><!-- content -->
+         <p id="u176-2">read more</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="u178-4"><!-- content -->
+        <p>Lorem ipsum dolor consectetur adipiscing elit.</p>
+       </div>
+      </div>
+      <a class="nonblock nontext clearfix colelem" id="u483-4" href="http://musefree.com"><!-- content --><p>VESTIBULUM ORNARE LIBERO EGET EX DICTUM</p></a>
+      <div class="clearfix colelem" id="pu115"><!-- group -->
+       <div class="museBGSize grpelem" id="u115"><!-- simple frame --></div>
+       <div class="museBGSize grpelem" id="u117"><!-- simple frame --></div>
+       <div class="museBGSize grpelem" id="u119"><!-- simple frame --></div>
+      </div>
+      <div class="clearfix colelem" id="pu120-4"><!-- group -->
+       <div class="clearfix grpelem" id="u120-4"><!-- content -->
+        <p id="u120-2">Lorem ipsum dolor amet</p>
+       </div>
+       <div class="clearfix grpelem" id="u122-4"><!-- content -->
+        <p id="u122-2">Donec efficitur sapien</p>
+       </div>
+       <div class="clearfix grpelem" id="u124-4"><!-- content -->
+        <p id="u124-2">Pellentesque habitant</p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu126-4"><!-- group -->
+       <div class="clearfix grpelem" id="u126-4"><!-- content -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ex libero, commodo a dolor a, ultricies accumsan metus. Vestibulum ornare libero eget ex dictum, tincidunt tincidunt nunc bibendum. Aliquam erat volutpat. Ut varius mi a euismod tristique.</p>
+       </div>
+       <div class="clearfix grpelem" id="u128-4"><!-- content -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ex libero, commodo a dolor a, ultricies accumsan metus. Vestibulum ornare libero eget ex dictum, tincidunt tincidunt nunc bibendum. Aliquam erat volutpat. Ut varius mi a euismod tristique.</p>
+       </div>
+       <div class="clearfix grpelem" id="u130-4"><!-- content -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ex libero, commodo a dolor a, ultricies accumsan metus. Vestibulum ornare libero eget ex dictum, tincidunt tincidunt nunc bibendum. Aliquam erat volutpat. Ut varius mi a euismod tristique.</p>
+       </div>
+      </div>
+      <a class="nonblock nontext clearfix colelem" id="u481-4" href="http://musefree.com"><!-- content --><p>VESTIBULUM ORNARE LIBERO EGET EX DICTUM</p></a>
+     </div>
+    </div>
+    <div class="PamphletWidget clearfix grpelem" id="pamphletu82"><!-- none box -->
+     <div class="popup_anchor" id="u89popup">
+      <div class="ContainerGroup clearfix" id="u89"><!-- stack box -->
+       <div class="Container museBGSize grpelem" id="u90"><!-- simple frame --></div>
+       <div class="Container invi museBGSize grpelem" id="u487"><!-- simple frame --></div>
+       <div class="Container invi museBGSize grpelem" id="u519"><!-- simple frame --></div>
+      </div>
+     </div>
+     <div class="ThumbGroup clearfix grpelem" id="u85"><!-- none box -->
+      <div class="popup_anchor">
+       <div class="Thumb popup_element rounded-corners" id="u86"><!-- simple frame --></div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element rounded-corners" id="u488"><!-- simple frame --></div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element rounded-corners" id="u520"><!-- simple frame --></div>
+      </div>
+     </div>
+    </div>
+    <div class="Button clearfix grpelem" id="buttonu183"><!-- container box -->
+     <div class="clearfix colelem" id="pu186-4"><!-- group -->
+      <div class="clearfix grpelem" id="u186-4"><!-- content -->
+       <p>Donec efficitur</p>
+      </div>
+      <div class="clearfix grpelem" id="u185-4"><!-- content -->
+       <p id="u185-2">read more</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u184-4"><!-- content -->
+      <p>Lorem ipsum dolor consectetur adipiscing elit.</p>
+     </div>
+    </div>
+    <div class="grpelem" id="u311"><!-- custom html -->
+     
+<div class="fb-like" data-href="http://www.facebook.com/musefree" data-send="false" data-width="81" data-show-faces="false" data-colorscheme="dark" data-layout="button_count" data-action="like"></div>
 
+</div>
+    <div class="PamphletWidget clearfix grpelem" id="pamphletu313"><!-- none box -->
+     <div class="ThumbGroup clearfix grpelem" id="u316"><!-- none box -->
+      <div class="popup_anchor">
+       <div class="Thumb popup_element clearfix" id="u317"><!-- group -->
+        <div class="museBGSize grpelem" id="u318"><!-- simple frame --></div>
+        <div class="clearfix grpelem" id="pu320-4"><!-- column -->
+         <div class="Name clearfix colelem" id="u320-4"><!-- content -->
+          <p>John Smith</p>
+         </div>
+         <div class="position clearfix colelem" id="u319-4"><!-- content -->
+          <p>Digital Marketing Executive</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element clearfix" id="u333"><!-- group -->
+        <div class="clearfix grpelem" id="pu334-4"><!-- column -->
+         <div class="Name clearfix colelem" id="u334-4"><!-- content -->
+          <p>Lisa Doe</p>
+         </div>
+         <div class="position clearfix colelem" id="u335-4"><!-- content -->
+          <p>Web Designer</p>
+         </div>
+        </div>
+        <div class="museBGSize grpelem" id="u336"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element clearfix" id="u321"><!-- group -->
+        <div class="clearfix grpelem" id="pu323-4"><!-- column -->
+         <div class="Name clearfix colelem" id="u323-4"><!-- content -->
+          <p>Gwen Lowe</p>
+         </div>
+         <div class="position clearfix colelem" id="u322-4"><!-- content -->
+          <p>Wed Developer</p>
+         </div>
+        </div>
+        <div class="museBGSize grpelem" id="u324"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element clearfix" id="u325"><!-- group -->
+        <div class="museBGSize grpelem" id="u328"><!-- simple frame --></div>
+        <div class="clearfix grpelem" id="pu327-4"><!-- column -->
+         <div class="Name clearfix colelem" id="u327-4"><!-- content -->
+          <p>Ali Wilson</p>
+         </div>
+         <div class="position clearfix colelem" id="u326-4"><!-- content -->
+          <p>Technical Support</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element clearfix" id="u329"><!-- group -->
+        <div class="museBGSize grpelem" id="u330"><!-- simple frame --></div>
+        <div class="clearfix grpelem" id="pu332-4"><!-- column -->
+         <div class="Name clearfix colelem" id="u332-4"><!-- content -->
+          <p>David Brown</p>
+         </div>
+         <div class="position clearfix colelem" id="u331-4"><!-- content -->
+          <p>Sales Manager</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element clearfix" id="u337"><!-- group -->
+        <div class="clearfix grpelem" id="pu340-4"><!-- column -->
+         <div class="Name clearfix colelem" id="u340-4"><!-- content -->
+          <p>Diana B</p>
+         </div>
+         <div class="position clearfix colelem" id="u339-4"><!-- content -->
+          <p>Project Manager</p>
+         </div>
+        </div>
+        <div class="museBGSize grpelem" id="u338"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u345popup">
+      <div class="ContainerGroup clearfix" id="u345"><!-- stack box -->
+       <div class="Container clearfix grpelem" id="u352"><!-- column -->
+        <div class="clip_frame colelem" id="u353"><!-- image -->
+         <img class="block" id="u353_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+        <div class="Feedback clearfix colelem" id="u357-4"><!-- content -->
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta quam mi, sed imperdiet arcu vestibulum a. Etiam nec eros vitae libero iaculis rhoncus posuere ac est. Mauris porta quam mi conllis neque.</p>
+        </div>
+        <div class="clip_frame colelem" id="u355" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- image -->
+         <img class="block" id="u355_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u346"><!-- column -->
+        <div class="clip_frame colelem" id="u467"><!-- image -->
+         <img class="block" id="u467_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+        <div class="Feedback clearfix colelem" id="u347-4"><!-- content -->
+         <p>Integer porta quam mi, sed imperdiet arcu vestibulum a. Lorem ipsum dolor sit amet, consectetur porta quam mi adipiscing elit. Etiam nec eros vitae libero iaculis rhoncus posuere ac est. Mauris conllis neque.</p>
+        </div>
+        <div class="clip_frame colelem" id="u469" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- image -->
+         <img class="block" id="u469_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u364"><!-- column -->
+        <div class="clip_frame colelem" id="u461"><!-- image -->
+         <img class="block" id="u461_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+        <div class="Feedback clearfix colelem" id="u369-4"><!-- content -->
+         <p>Etiam nec eros vitae libero iaculis rhoncus posuere ac est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta quam mi porta quam mi, sed imperdiet arcu a. Mauris conllis&nbsp; ipsum dolor sit neque.</p>
+        </div>
+        <div class="clip_frame colelem" id="u463" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- image -->
+         <img class="block" id="u463_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u376"><!-- column -->
+        <div class="clip_frame colelem" id="u455"><!-- image -->
+         <img class="block" id="u455_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+        <div class="Feedback clearfix colelem" id="u379-4"><!-- content -->
+         <p>Integer porta quam mi, sed imperdiet arcu vestibulum a. Etiam nec eros vitae libero iaculis rhoncus posuere ac est. Mauris conllis neque. Lorem ipsum dolor sit amet, consectetur porta quam mi adipiscing elit.</p>
+        </div>
+        <div class="clip_frame colelem" id="u457" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- image -->
+         <img class="block" id="u457_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u358"><!-- column -->
+        <div class="clip_frame colelem" id="u449"><!-- image -->
+         <img class="block" id="u449_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+        <div class="Feedback clearfix colelem" id="u363-4"><!-- content -->
+         <p>Integer porta quam mi, sed imperdiet arcu vestibulum a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec eros vitae libero iaculis rhoncus posuere ac est. Mauris conllis porta quam mi neque.</p>
+        </div>
+        <div class="clip_frame colelem" id="u451" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- image -->
+         <img class="block" id="u451_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u370"><!-- column -->
+        <div class="clip_frame colelem" id="u473"><!-- image -->
+         <img class="block" id="u473_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+        <div class="Feedback clearfix colelem" id="u373-4"><!-- content -->
+         <p>Mauris conllis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta quam mi porta quam mi, sed imperdiet arcu vestibulum a. Etiam nec eros vitae libero iaculis rhoncus posuere ac est.</p>
+        </div>
+        <div class="clip_frame colelem" id="u475" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- image -->
+         <img class="block" id="u475_img" src="images/quote.png" alt="" width="47" height="35"/>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="verticalspacer"></div>
+   <div class="clearfix grpelem" id="u630"><!-- group -->
+    <div class="clearfix grpelem" id="u529"><!-- column -->
+     <div class="position_content" id="u529_position_content">
+      <div class="clearfix colelem" id="pu577-4"><!-- group -->
+       <a class="nonblock nontext clearfix grpelem" id="u577-4" href="http://musefree.com"><!-- content --><p>Contact Information</p></a>
+       <a class="nonblock nontext clearfix grpelem" id="u578-4" href="http://musefree.com"><!-- content --><p>About</p></a>
+       <a class="nonblock nontext clearfix grpelem" id="u579-4" href="http://musefree.com"><!-- content --><p>Get Involved</p></a>
+       <a class="nonblock nontext clearfix grpelem" id="u628-4" href="http://musefree.com"><!-- content --><p>Information</p></a>
+      </div>
+      <div class="clearfix colelem" id="ppu586"><!-- group -->
+       <div class="clearfix grpelem" id="pu586"><!-- column -->
+        <div class="clip_frame colelem" id="u586"><!-- image -->
+         <img class="block" id="u586_img" src="images/footer01.jpg" alt="" width="12" height="12"/>
+        </div>
+        <div class="clip_frame colelem" id="u588"><!-- image -->
+         <img class="block" id="u588_img" src="images/footer02.jpg" alt="" width="13" height="11"/>
+        </div>
+        <div class="clip_frame colelem" id="u590"><!-- image -->
+         <img class="block" id="u590_img" src="images/footer03.jpg" alt="" width="12" height="10"/>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="u580-8"><!-- content -->
+        <p>Phone:&nbsp; 253 601&#45;8314</p>
+        <p>Email:&nbsp; email@musefree.com</p>
+        <p>Address:&nbsp; 1234 23th St. SW, Seattle, WA 98064</p>
+       </div>
+       <div class="clearfix grpelem" id="u624-9"><!-- content -->
+        <ul class="list0 nls-None" id="u624-7">
+         <li>About Us</li>
+         <li>Our Directors</li>
+         <li>Follow us Twitter</li>
+        </ul>
+       </div>
+       <div class="clearfix grpelem" id="u584-9"><!-- content -->
+        <ul class="list0 nls-None" id="u584-7">
+         <li>General Membership</li>
+         <li>&nbsp;Ambassador Program</li>
+         <li>Leadership Program</li>
+        </ul>
+       </div>
+       <div class="clearfix grpelem" id="u627-9"><!-- content -->
+        <ul class="list0 nls-None" id="u627-7">
+         <li>Terms &amp; Conditions</li>
+         <li>&nbsp;Sitemap</li>
+         <li>Affiliate Program</li>
+        </ul>
+       </div>
+      </div>
+      <a class="nonblock nontext clearfix colelem" id="u602-7" href="http://www.musefree.com"><!-- content --><p>MADE WITH <span><span class="actAsInlineDiv normal_text" id="u603"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u604"><!-- image --><img id="u604_img" src="images/heart.png" alt="" width="11" height="9"/></span></span></span> IN MUSEFREE.COM</p></a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3777594392" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?415733523" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?4259541792" type="text/javascript"></script>
+  <script src="scripts/webpro.js?474087315" type="text/javascript"></script>
+  <script src="scripts/musewpslideshow.js?274584885" type="text/javascript"></script>
+  <script src="scripts/jquery.museoverlay.js?170414611" type="text/javascript"></script>
+  <script src="scripts/touchswipe.js?100683906" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4144919381" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#pamphletu82', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:true,displayInterval:3000,transitionStyle:'vertical',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false}); });/* #pamphletu82 */
+Muse.Utils.initWidget('#pamphletu313', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:300,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false}); });/* #pamphletu313 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+  
+  <!--HTML Widget code-->
+  
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-
-
-
-
-</body>
+   </body>
 </html>
