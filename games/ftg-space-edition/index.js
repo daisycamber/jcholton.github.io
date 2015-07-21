@@ -167,6 +167,6 @@ function accelerateToPoint(obj1, x, y, speed) {
 
 function render() {
 
-    game.debug.cameraInfo(game.camera, 32, 32);
+    //game.debug.cameraInfo(game.camera, 32, 32);
 
 }
