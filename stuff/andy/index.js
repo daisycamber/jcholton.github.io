@@ -5,7 +5,7 @@ var game = new Phaser.Game(width, height, Phaser.AUTO, 'lsd', { preload: preload
 
 function preload() {
 
-    game.load.image('texture', 'http://holton.io/stuff/andy/static/media/satandy.png');
+    game.load.image('texture', 'satandy.png');
 
 }
 
