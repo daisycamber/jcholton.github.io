@@ -1,7 +1,10 @@
-var game = new Phaser.Game(900, 700, Phaser.AUTO, 'starlight', { create: create, update: update });
+var game = new Phaser.Game(1000, 600, Phaser.AUTO, 'starlight', { create: create, update: update });
 
 var filter;
 var sprite;
+
+var width = 1000;
+var height = 600;
 
 function create() {
     
@@ -116,11 +119,11 @@ function create() {
                        ];
     
     filter = new Phaser.Filter(game, null, fragmentSrc);
-    filter.setResolution(800, 600);
+    filter.setResolution(width, height);
     
     sprite = game.add.sprite();
-    sprite.width = 800;
-    sprite.height = 600;
+    sprite.width = width;
+    sprite.height = height;
     
     sprite.filters = [ filter ];
     
