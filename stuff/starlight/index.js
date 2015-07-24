@@ -1,10 +1,12 @@
-var game = new Phaser.Game(1000, 600, Phaser.AUTO, 'starlight', { create: create, update: update });
+var width = 1000;
+var height = 600;
+
+var game = new Phaser.Game(width, height, Phaser.AUTO, 'starlight', { create: create, update: update });
 
 var filter;
 var sprite;
 
-var width = 1000;
-var height = 600;
+
 
 function create() {
     
