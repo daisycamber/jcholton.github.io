@@ -1,4 +1,7 @@
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'shader', { create: create, update: update });
+var width = 1000;
+var height = 750;
+
+var game = new Phaser.Game(width, height, Phaser.AUTO, 'shader', { create: create, update: update });
 
 var filter;
 var sprite;
@@ -34,11 +37,11 @@ function create() {
                        ];
 
     filter = new Phaser.Filter(game, null, fragmentSrc);
-    filter.setResolution(800, 600);
+    filter.setResolution(width, height);
 
     sprite = game.add.sprite();
-    sprite.width = 800;
-    sprite.height = 600;
+    sprite.width = width;
+    sprite.height = height;
 
     sprite.filters = [ filter ];
 
