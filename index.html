@@ -2,7 +2,7 @@
 <html class="en">
 <head>
   <meta charset="utf-8">
-  <title>Code Blog</title>
+  <title>Home</title>
   <meta name="description" content="">
   <meta name=viewport content="width=device-width, initial-scale=1">
   <meta name="mobile-web-app-capable" content="yes">
@@ -30,6 +30,14 @@
 
   <link rel="stylesheet" type="text/css" href="index.css">
   <style>
+  .ui.inverted.segment, .ui.primary.inverted.segment {
+    padding-bottom: 5%;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.9);
+  }
 
   .ui.inverted.vertical.footer.segment {
     background-image: none;
@@ -41,9 +49,18 @@
   }
 
   .ui.large.top.fixed.menuC0C0C0{
-    background-color: #2185D0;
+      background-color: #C0C0C0;
   }
 
+  .ui.text.container {
+    font-size: 1.14285714rem;
+    padding-top: 15%;
+  }
+
+  .ui.block.medium.inverted.header {
+    border: none;
+    background-color: C0C0C0;
+  }
 
   .ui.huge.primary.button {
     margin-top: 1%;
@@ -100,7 +117,7 @@
 <body>
 
   <!-- Page Contents -->
-  <div class="pusher3">
+  <div class="pusher">
     <div class="ui inverted vertical masthead center aligned segment">
 
       <!-- Main Menu-->
@@ -109,7 +126,7 @@
           <a class="toc item">
             <i class="sidebar icon"></i>
           </a>
-          <a href="index.html" class="item">Home</a>
+          <a class="item">Home</a>
         
         <div class="ui dropdown item">
             Blogs
@@ -128,19 +145,49 @@
               <a class="item" href="project2/index.html">Test2</a>
             </div>
           </div>
-          <a class="item" href="https://github.com/jcholton">Github</a>
+          <a class="item" href="ttps://github.com/jcholton">Github</a>
         </div>
+      </div>
+
+      <div class="ui text container">
+        <h1 class="ui block medium inverted header">
+          Jasper Holton
+        </h1>
+        <h2 class="ui block medium inverted header">The official site of Jasper Holton</h2>
+        <div class="ui huge primary button"><a href="code.html">Learn More <i class="right arrow icon"></i></a></div>
       </div>
 
     </div>
 
+    <div class="ui vertical stripe segment">
+      <div class="ui middle aligned stackable grid container">
+        <div class="row">
+          <div class="eight wide column">
+            <h3 class="ui header">About Me</h3>
+            <p>Hi there. I was never very good at introductions.</p>
+            <h3 class="ui header">My Projects</h3>
+            <p>On this site you will find information about my recent projects.</p>
+          </div>
+          <div class="six wide right floated column">
+            <img src="images/pis.jpg" class="ui large bordered rounded image">
+          </div>
+        </div>
+              </div>
+    </div>
 
 
-<div class="ui raised very padded text container segment">
-    <h2 class="ui header">WebGL Shaders: Combining Coding and Art</h2>
-    <p>By Jasper Holton, August 3, 2015</p>
-    <p>Blog blog blog...</p>
-</div>
+    <div class="ui vertical stripe quote segment">
+      <div class="ui equal width stackable internally celled grid">
+        <div class="center aligned row">
+          <div class="column">
+            <h3>"As a scientist, you come to understand that the world around you is always an experiment."</h3>
+            <p>
+              <img src="images/me.jpg" class="ui avatar image"> <b>Jasper</b> | Student
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <div class="ui inverted vertical footer segment">
@@ -150,8 +197,8 @@
             <h4 class="ui inverted header">About</h4>
             <div class="ui inverted link list">
               <a href="mailto:jasper@holton.io" class="item">Contact Me</a>
-              <a href="http://uafasra.github.io/" class="item">Main ASRA Page</a>
-              <a href="links.html" class="item">Helpful Links</a>
+              <a href="http://github.com/jcholton" class="item">Github Page</a>
+              <a href="links.html" class="item">Links</a>
             </div>
           </div>
           <div class="seven wide column">
