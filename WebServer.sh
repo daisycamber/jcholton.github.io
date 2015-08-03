@@ -1,6 +1,6 @@
 #!/bin/bash
 # Run web server
 
-cd /Users/jasperholton/Programming/Phaser\ Games/Crimson-Deep
+cd /Users/jasperholton/Programming/jcholton.github.io
 python -m SimpleHTTPServer
 
