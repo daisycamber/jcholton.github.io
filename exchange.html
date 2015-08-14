@@ -89,6 +89,16 @@
          box-shadow: none !important;
          }
       </style>
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script>
+          $(function(){
+            $("#mainmenu").load("mainmenu.html");
+            });
+          $(function(){
+            $("#footer").load("footer.html");
+          });
+      </script>
    </head>
    <body>
       <!-- Page Contents -->
@@ -135,6 +145,7 @@
             <h2 class="ui header">----Personal Essays----</h2>
             <p>This page contains a series of personal essays, with the newest being first and the oldest being last. It would be best to read these in chronological order. These personal essays are similar to some sort of blog post, and I will continue to update them as time permits. Also, note that I am aware my writing is bad and constructive criticism is welcome. <a href="mailto:jasper@holton.io" target="_blank">Send me an email</a>.</p>
          </div>
+         
          <div class="ui raised very padded text container segment">
              <h2 class="ui header">Adjusting to my New Home</h2>
              <p><img src="images/me.jpg" class="ui avatar image"> <b>Jasper Holton</b> | August 12, 2015</p>
@@ -203,28 +214,9 @@
          <!-- ESSAYS END HERE --->
          <!-- ESSAYS END HERE --->
          <!-- ESSAYS END HERE --->
-         <div class="ui inverted vertical footer segment">
-            <div class="ui container">
-               <div class="ui stackable inverted divided equal height stackable grid">
-                  <div class="three wide column">
-                     <h4 class="ui inverted header">Find me</h4>
-                     <div class="ui inverted link list">
-                        <a href="mailto:jasper@holton.io" class="item" target="_blank">Contact Me</a>
-                        <a href="http://github.com/jcholton" class="item" target="_blank">Github Page</a>
-                        <a href="https://www.youtube.com/user/wenikalla/" class="item" target="_blank">YouTube</a>
-                        <a href="http://stackoverflow.com/users/2225373/jasper-holton" class="item" target="_blank">StackOverFlow</a>
-                     </div>
-                  </div>
-                  <div class="seven wide column">
-                     <h4 class="ui inverted header">About This Page</h4>
-                     <p>"On résiste à l'invasion des armées; on ne résiste pas à l'invasion des idées." - Victor Hugo</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
    </body>
    <footer>
+       <div id="footer"></div>
    </footer>
    <foot>
       <script type="text/javascript" src="semantic-ui/jquery-2.1.4.min.js"></script>
