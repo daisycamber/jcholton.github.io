@@ -187,9 +187,11 @@ function export_csv() {
 //generate and prompt browser to download a .csv of
 //current deck of cards
 function eximExport() {
-    var bb = new BlobBuilder;
-    bb.append("Hello, world44!");
-    saveAs(bb.getBlob("text/plain;charset=utf-8"), "hello world.txt");
+    export_csv();
+    console.log("Done");
+    //var bb = new BlobBuilder;
+    //bb.append("Hello, world44!");
+    //saveAs(bb.getBlob("text/plain;charset=utf-8"), "hello world.txt");
 }
 
 function eximImport() {
