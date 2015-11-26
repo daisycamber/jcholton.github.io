@@ -1,0 +1,23 @@
+// My solution to Towers of Hanoi
+public class TowersOfHanoiSolver {
+
+   public static void solveTowers (int curr, String start, String auxiliary, String end)
+   {
+       if (curr == 1)
+       {
+           System.out.println(start + " -> " + end); // Print out part of the solution
+       }
+       else
+       {
+           solve(curr - 1, start, end, auxiliary);
+           System.out.println(start + " -> " + end); // Print out part of the solution
+           solve(curr - 1, auxiliary, start, end);
+       }
+   }
+
+   public static void main(String[] args)
+   {
+       // Change 4 to however many disks you want
+       solveTowers(4, "A", "B", "C");
+   }
+}
