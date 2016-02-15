@@ -1,245 +1,282 @@
 <!DOCTYPE html>
 <html class="en">
-   <head>
-      <meta charset="utf-8">
-      <title>Exchange Essays</title>
-            <meta name="description" content="">
-      <meta name=viewport content="width=device-width, initial-scale=1">
-      <meta name="mobile-web-app-capable" content="yes">
-      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-      <meta http-equiv="Pragma" content="no-cache" />
-      <meta http-equiv="Expires" content="0" />
-      <link rel="icon" href="favicon.ico" type="image/x-icon" />
-      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/reset.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/site.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/container.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/grid.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/header.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/image.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/menu.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/accordion.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/divider.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/dropdown.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/segment.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/button.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/list.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/icon.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/sidebar.css">
-      <link rel="stylesheet" type="text/css" href="semantic-ui/components/transition.css">
-      <link rel="stylesheet" type="text/css" href="index.css">
-      <!-- Google Analytics Tracking -->
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-         ga('create', 'UA-66282570-1', 'auto');
-         ga('send', 'pageview');
-      </script>
-      <style>
-         .ui.inverted.vertical.footer.segment {
-         background-image: none;
-         background-color: C0C0C0;
-         }
-         .ui.inverted.menu {
-         background-color: C0C0C0;
-         }
-         .ui.large.top.fixed.menuC0C0C0{
-         background-color: #2185D0;
-         }
-         .ui.huge.primary.button {
-         margin-top: 1%;
-         }
-         .ui.stackable.inverted.divided.equal.height.stackable.grid {
-         padding-left: 5%;
-         padding-right: 5%
-         }
-         .ui.large.inverted.pointing.menu .item {
-         padding: 2%;
-         }
-         .ui.huge.primary.button a {
-         color: #ffffff;
-         }
-         .ui.styled.accordion, .ui.styled.accordion .accordion {
-         background-color: C0C0C0;
-         color: #ffffff;
-         font-weight: normal;
-         border: none;
-         box-shadow: none;
-         }
-         .ui.styled.accordion .title, .ui.styled.accordion .title:hover, .ui.styled.accordion .active.title {
-         color: #ffffff;
-         font-weight: normal;
-         border: none;
-         box-shadow: none;
-         }
-         .ui.inverted.pointing.menu .active.item:after {
-         background-color:C0C0C0 !important;
-         }
-         .ui.inverted.pointing.menu .active.item:hover:after {
-         background-color: #ffffff !important;
-         }
-         .content > .accordion .title, .content > .accordion .title:hover, .content > .accordion .active.title {
-         background-color: C0C0C0 !important;
-         color: #ffffff !important;
-         font-weight: normal !important;
-         border: none !important;
-         box-shadow: none !important;
-         }
-         .pusher {
-           background-image: url("images/german-flag-hd.png") !important;
-         }
-      </style>
-      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-      <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-      <script>
-          $(function(){
-            $("#mainmenu").load("mainmenu.html");
-            });
-          $(function(){
-            $("#footer").load("footer.html");
-          });
-      </script>
-   </head>
-   <body>
-      <!-- Page Contents -->
-      <div class="pusher" id="pusher">
-         <div class="ui inverted vertical masthead center aligned segment">
-            <!-- Main Menu-->
-            <div class="ui container">
-               <div class="ui large inverted pointing menu">
-                  <a class="toc item">
-                  <i class="sidebar icon"></i>
-                  </a>
-                  <a class="item" href="index.html">Home</a>
-                  <div class="ui dropdown item">
-                     Personal Essay Collection
-                     <i class="dropdown icon"></i>
-                     <div class="menu">
-                         <a class="item" href="exchange.html">Exchange Essays</a>
-                         <a class="item" href="code.html">Code Essays</a>
-                     </div>
-                  </div>
-                  <a class="item" href="exchange_archive.html">Archive</a>
-               </div>
+<head>
+  <meta charset="utf-8">
+  <title>Exchange Essays</title>
+  <meta name="description" content="">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/site.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/container.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/header.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/image.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/menu.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/accordion.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/button.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/list.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/transition.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <!-- Google Analytics Tracking -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66282570-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <style>
+  .ui.inverted.vertical.footer.segment {
+    background-image: none;
+    background-color: C0C0C0;
+  }
+  .ui.inverted.menu {
+    background-color: C0C0C0;
+  }
+  .ui.large.top.fixed.menuC0C0C0{
+    background-color: #2185D0;
+  }
+  .ui.huge.primary.button {
+    margin-top: 1%;
+  }
+  .ui.stackable.inverted.divided.equal.height.stackable.grid {
+    padding-left: 5%;
+    padding-right: 5%
+  }
+  .ui.large.inverted.pointing.menu .item {
+    padding: 2%;
+  }
+  .ui.huge.primary.button a {
+    color: #ffffff;
+  }
+  .ui.styled.accordion, .ui.styled.accordion .accordion {
+    background-color: C0C0C0;
+    color: #ffffff;
+    font-weight: normal;
+    border: none;
+    box-shadow: none;
+  }
+  .ui.styled.accordion .title, .ui.styled.accordion .title:hover, .ui.styled.accordion .active.title {
+    color: #ffffff;
+    font-weight: normal;
+    border: none;
+    box-shadow: none;
+  }
+  .ui.inverted.pointing.menu .active.item:after {
+    background-color:C0C0C0 !important;
+  }
+  .ui.inverted.pointing.menu .active.item:hover:after {
+    background-color: #ffffff !important;
+  }
+  .content > .accordion .title, .content > .accordion .title:hover, .content > .accordion .active.title {
+    background-color: C0C0C0 !important;
+    color: #ffffff !important;
+    font-weight: normal !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .pusher {
+    background-image: url("images/german-flag-hd.png") !important;
+  }
+  </style>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $("#mainmenu").load("mainmenu.html");
+  });
+  $(function(){
+    $("#footer").load("footer.html");
+  });
+  </script>
+</head>
+<body>
+  <!-- Page Contents -->
+  <div class="pusher" id="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+      <!-- Main Menu-->
+      <div class="ui container">
+        <div class="ui large inverted pointing menu">
+          <a class="toc item">
+            <i class="sidebar icon"></i>
+          </a>
+          <a class="item" href="index.html">Home</a>
+          <div class="ui dropdown item">
+            Personal Essay Collection
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <a class="item" href="exchange.html">Exchange Essays</a>
+              <a class="item" href="code.html">Code Essays</a>
             </div>
-         </div>
-           <!-- ESSAYS START HERE --->
-         <!-- ESSAYS START HERE --->
-         <!-- ESSAYS START HERE --->
+          </div>
+          <a class="item" href="exchange_archive.html">Archive</a>
+        </div>
+      </div>
+    </div>
+    <!-- ESSAYS START HERE --->
+    <!-- ESSAYS START HERE --->
+    <!-- ESSAYS START HERE --->
 
 
-         <!-- Essay template:
+    <!-- Essay template:
 
-         <A NAME="essayXX"></a>
-         <div class="ui raised very padded text container segment">
-             <h2 class="ui header">Essay Title</h2>
-             <p><img src="images/me.jpg" class="ui avatar image"> <b>Jasper Holton</b> | Day Month, Year</p>
-                 <p>Blah blah blah, <a href="filler.html" target="_blank">link</a>.</p>
-                 <img src="images/blank.jpg" class="ui large bordered rounded image">
-         </div>
+    <A NAME="essayXX"></a>
+    <div class="ui raised very padded text container segment">
+    <h2 class="ui header">Essay Title</h2>
+    <p><img src="images/me.jpg" class="ui avatar image"> <b>Jasper Holton</b> | Day Month, Year</p>
+    <p>Blah blah blah, <a href="filler.html" target="_blank">link</a>.</p>
+    <img src="images/blank.jpg" class="ui large bordered rounded image">
+  </div>
 
-         --->
-
-
-         <div class="ui raised very padded text container segment">
-            <h2 class="ui header"><i>Personal Essays</i></h2>
-            <p>This page contains a series of personal essays, with the newest being first and the oldest being last. It would be best to read these in chronological order (check the <a href="exchange_archive.html">archive</a> to get to older ones easily). These personal essays are similar to some sort of blog post, and I will continue to update them as time permits. Also, note that I am aware my writing isn't great and constructive criticism is welcome. Tell me what you think in the <a href="#comments">comments below</a>!</p>
-         </div>
-
-         <A NAME="essay32"></a>
-         <div class="ui raised very padded text container segment">
-             <h2 class="ui header">New Years and Berlin</h2>
-             <p><img src="images/me.jpg" class="ui avatar image"> <b>Jasper Holton</b> | January 8, 2016</p>
-                 <p>As it's now a few days into the new year, I feel its a good time to continue with my blog. Even though not very much time has passed, quite a lot has happened. I spent New Years Eve with a few friends from my school, which was quite enjoyable. We ate together, played some games, and set of fireworks to celebrate the new year. There were certainly quite a lot of fireworks, and the sky was filled with colour and smoke for almost an hour into 2016. I really enjoyed the fireworks, and managed to even get a few pictures.</p>
-                 <img src="images/fireworks1.jpg" class="ui large bordered rounded image">
-                 <img src="images/fireworks2.jpg" class="ui large bordered rounded image">
-                 <img src="images/fireworks3.jpg" class="ui large bordered rounded image">
-                 <img src="images/fireworks4.jpg" class="ui large bordered rounded image">
-
-                 <p>The first few days of the new year I was able to relax and enjoy some time off with my host family. But on January 3, we drove together to Berlin. My host family has a small apartment in Berlin, as my host father works there and needs to stay there for most of the week. I stayed in Berlin until the 6th, when we had to drive back so I could go back to school.</p>
-                 <img src="images/berlin3-1.jpg" class="ui large bordered rounded image">
-                 <p>The drive to Berlin was long and mostly uneventful, though I did get to see quite a bit of snow, which I found to be really nice. We got to Berlin in the evening, and ate dinner with some friends of my host family.</p>
-                 <p>The second day I got a tour of Potsdam, a district from Berlin, with my host mother. The weather was quite cold, a bit colder than I had prepared for. But I still very much enjoyed walking around and looking at the beautiful castles.</p>
-                 <img src="images/berlin3-2.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-3.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-4.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-5.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-6.jpg" class="ui large bordered rounded image">
-                 <p>The second day we spent in the city of Berlin. I got to see various sights that I had missed on the Germany tour, my favourite of which being the Berlin Wall Panorama. This was a large room with a panorama picture of the wall, from West to East Berlin. The panorama also featured a day/night cycle and various clips of speeches, such as Kennedy's "Ich bin ein Berliner" (translates to "I am a Berliner", showing solidarity with those living in the difficult situation in Berlin at the time). That evening we also went to see the film "Bridge of Spies", which is about the exchange of spies between American occupied West Berlin, and the Deutsche Democratic Republik (East Berlin). This fit really well with what I had seen that day, and I really felt like I got a good impression of what life was like in Berlin before the wall fell. It also happens that both of my host parents lived in West Berlin before the fall of the wall, and were there when it fell. I got to hear first hand what it was like, which I found to be very interesting.</p>
-                 <img src="images/berlin3-7.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-8.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-9.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-10.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-11.jpg" class="ui large bordered rounded image">
-                 <img src="images/berlin3-12.jpg" class="ui large bordered rounded image">
-                 <p>One of the cool attractions we visited was the Fasssbender&amp;Rausch Chocolatier. Here are a few pictures:</p>
-                 <img src="images/chocolate1.jpg" class="ui large bordered rounded image">
-                 <img src="images/chocolate2.jpg" class="ui large bordered rounded image">
-                 <img src="images/chocolate3.jpg" class="ui large bordered rounded image">
-                 <img src="images/chocolate4.jpg" class="ui large bordered rounded image">
-                 <p>After my eventful trip to Berlin, I am now back in Wesel and going to school. The new year has been good so far!</p>
-         </div>
-
-         <A NAME="essay31"></a>
-         <div class="ui raised very padded text container segment">
-             <h2 class="ui header">A Day in Dusseldorf and Oberhausen</h2>
-             <p><img src="images/me.jpg" class="ui avatar image"> <b>Jasper Holton</b> | December 30, 2015</p>
-                 <p>I had the opportunity yesterday to spend a day in Dusseldorf and Oberhausen (a few nearby cities) with my host brother Laurenz, his friend Christian, and Christian's friend Victor, visiting from South Korea. We started late morning and drove to Dusseldorf in Christians car, before walking around the city and seeing it's various sites, including the old city and harbor.</p>
-                 <img src="images/dusseldorf1.jpg" class="ui large bordered rounded image">
-                 <img src="images/dusseldorf2.jpg" class="ui large bordered rounded image">
-                 <img src="images/dusseldorf3.jpg" class="ui large bordered rounded image">
-                 <p>We also spent some time in the Rheinturm, a 234 meter and 22,500 ton telecommunications tower located near the harbor. We got to see some nice views of the city, despite a bit of fog.</p>
-                 <img src="images/dusseldorftower1.jpg" class="ui large bordered rounded image">
-                 <img src="images/dusseldorftower2.jpg" class="ui large bordered rounded image">
-                 <p>After completing our tour of Dusseldorf, we went to the industrial park in Duisburg. At the heart of the park is an old steel factory that has been outfitted with various walking pathways and information panels and can be explored freely. It was fun to climb around on the structuress and learn a bit about the production of steel. We also got to watch a pretty sunset over Duisburg from the top of the factory.</p>
-                 <img src="images/oberhausenpark1.jpg" class="ui large bordered rounded image">
-                 <img src="images/oberhausenpark4.jpg" class="ui large bordered rounded image">
-                 <img src="images/oberhausenpark5.jpg" class="ui large bordered rounded image">
-                 <p>Being as Victor didn't speak any German, we spoke English together for the entire day. This was a bit strange for me, because I barley speak any English normally. I speak entirley in German with my host family and friends, and mostly only speak English with friends back home. Nonetheless, we had a good time in Dusseldorf.</p>
-                 <img src="images/oberhausenpark3.jpg" class="ui large bordered rounded image">
-         </div>
+  --->
 
 
+  <div class="ui raised very padded text container segment">
+    <h2 class="ui header"><i>Personal Essays</i></h2>
+    <p>This page contains a series of personal essays, with the newest being first and the oldest being last. It would be best to read these in chronological order (check the <a href="exchange_archive.html">archive</a> to get to older ones easily). These personal essays are similar to some sort of blog post, and I will continue to update them as time permits. Also, note that I am aware my writing isn't great and constructive criticism is welcome. Tell me what you think in the <a href="#comments">comments below</a>!</p>
+  </div>
 
-         <!-- ESSAYS END HERE --->
-         <!-- ESSAYS END HERE --->
-         <!-- ESSAYS END HERE --->
+  <A NAME="essay33"></a>
+    <div class="ui raised very padded text container segment">
+      <h2 class="ui header">Six Months in Germany</h2>
+      <p><img src="images/me.jpg" class="ui avatar image"> <b>Jasper Holton</b> | February 11, 2016</p>
+      <p>As of today I have been in Germany for six whole months. It's strange to think that my exchange is almost halfway over, but I still have a lot more time here and some great ways to spend it. I am registered and ready for the Europe tour, which will begin on the 10th of March and last three weeks. It's less than a month away, and I am really looking forward to it. I will be with our exchange program group, heading to various cities around Europe. Our route consists of:</p>
+      <ul>
+        <li>Prague</li>
+        <li>Budapest</li>
+        <li>Vienna</li>
+        <li>Padua</li>
+        <li>Venice</li>
+        <li>Rome</li>
+        <li>Florence</li>
+        <li>Pisa</li>
+        <li>Nice</li>
+        <li>Monaco</li>
+        <li>Avignion</li>
+        <li>Genf</li>
+        <li>Paris</li>
+      </ul>
+      <p>We will also stop in various other cities along the way, but these are the major ones that we will be seeing. It should be lots of fun, I have heard from past exchange students that it was the highlight of their exchange.</p>
+      <p>I had the opportunity a few weeks ago to visit several water castles near Wesel, which was nice. Water castles are very common in this region of Germany, and they tend to be quite well restored. The photos are a bit dark due to the weather, but still give you a good idea of what they look like. It's really interesting to be in a place where a lot of the buildings are quite old.</p>
+      <img src="images/watercastle4.jpg" class="ui large bordered rounded image">
+      <img src="images/watercastle5.jpg" class="ui large bordered rounded image">
+      <img src="images/watercastle6.jpg" class="ui large bordered rounded image">
+      <p>I also had the opportunity to experience the German holiday of Karneval. Our rotary district had a meeting for the weekend of Karneval, starting on Saturday the 6th of February. Every exchange student in the district met in Dusseldorf, including the new arrivals. About half of the exchange students in this district left sometime in January, being as they had come in December/January last year. That means that even though some of the exchange students have finished their exchange, many of them are just starting. At the weekend all of the new arrivals were there, meaning many new faces from all over the world. We got to know eachother and celebrated Karneval by dressing up in costumes and and walking around the city. Sadly we weren't able to get out as much as we would have liked, but it was still a very enjoyable weekend. Here are some pictures of the celebrations.</p>
+      <img src="images/karneval1.jpg" class="ui large bordered rounded image">
+      <img src="images/karneval2.jpg" class="ui large bordered rounded image">
+      <img src="images/karneval3.jpg" class="ui large bordered rounded image">
+      <img src="images/karneval4.jpg" class="ui large bordered rounded image">
+      <img src="images/karneval5.jpg" class="ui large bordered rounded image">
+      <p>(Above) Yes, I am dressed as a garden gnome</p>
+      <p>Other than that, not much has been going on here in Germany. I've been continuing to improve my language skills, doing schoolwork, and meeting with friends. It's quite relaxing actually, and I feel really at home here.</p>
+      <img src="images/karneval6.jpg" class="ui large bordered rounded image">
+      <p>(Above) Hanging out with two of my favourite exchange students</p>
+    </div>
 
-         <A NAME="comments"></a>
-         <div class="ui raised very padded text container segment">
+    <A NAME="essay32"></a>
+      <div class="ui raised very padded text container segment">
+        <h2 class="ui header">New Years and Berlin</h2>
+        <p><img src="images/me.jpg" class="ui avatar image"> <b>Jasper Holton</b> | January 8, 2016</p>
+        <p>As it's now a few days into the new year, I feel its a good time to continue with my blog. Even though not very much time has passed, quite a lot has happened. I spent New Years Eve with a few friends from my school, which was quite enjoyable. We ate together, played some games, and set of fireworks to celebrate the new year. There were certainly quite a lot of fireworks, and the sky was filled with colour and smoke for almost an hour into 2016. I really enjoyed the fireworks, and managed to even get a few pictures.</p>
+        <img src="images/fireworks1.jpg" class="ui large bordered rounded image">
+        <img src="images/fireworks2.jpg" class="ui large bordered rounded image">
+        <img src="images/fireworks3.jpg" class="ui large bordered rounded image">
+        <img src="images/fireworks4.jpg" class="ui large bordered rounded image">
+
+        <p>The first few days of the new year I was able to relax and enjoy some time off with my host family. But on January 3, we drove together to Berlin. My host family has a small apartment in Berlin, as my host father works there and needs to stay there for most of the week. I stayed in Berlin until the 6th, when we had to drive back so I could go back to school.</p>
+        <img src="images/berlin3-1.jpg" class="ui large bordered rounded image">
+        <p>The drive to Berlin was long and mostly uneventful, though I did get to see quite a bit of snow, which I found to be really nice. We got to Berlin in the evening, and ate dinner with some friends of my host family.</p>
+        <p>The second day I got a tour of Potsdam, a district from Berlin, with my host mother. The weather was quite cold, a bit colder than I had prepared for. But I still very much enjoyed walking around and looking at the beautiful castles.</p>
+        <img src="images/berlin3-2.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-3.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-4.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-5.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-6.jpg" class="ui large bordered rounded image">
+        <p>The second day we spent in the city of Berlin. I got to see various sights that I had missed on the Germany tour, my favourite of which being the Berlin Wall Panorama. This was a large room with a panorama picture of the wall, from West to East Berlin. The panorama also featured a day/night cycle and various clips of speeches, such as Kennedy's "Ich bin ein Berliner" (translates to "I am a Berliner", showing solidarity with those living in the difficult situation in Berlin at the time). That evening we also went to see the film "Bridge of Spies", which is about the exchange of spies between American occupied West Berlin, and the Deutsche Democratic Republik (East Berlin). This fit really well with what I had seen that day, and I really felt like I got a good impression of what life was like in Berlin before the wall fell. It also happens that both of my host parents lived in West Berlin before the fall of the wall, and were there when it fell. I got to hear first hand what it was like, which I found to be very interesting.</p>
+        <img src="images/berlin3-7.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-8.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-9.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-10.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-11.jpg" class="ui large bordered rounded image">
+        <img src="images/berlin3-12.jpg" class="ui large bordered rounded image">
+        <p>One of the cool attractions we visited was the Fasssbender&amp;Rausch Chocolatier. Here are a few pictures:</p>
+        <img src="images/chocolate1.jpg" class="ui large bordered rounded image">
+        <img src="images/chocolate2.jpg" class="ui large bordered rounded image">
+        <img src="images/chocolate3.jpg" class="ui large bordered rounded image">
+        <img src="images/chocolate4.jpg" class="ui large bordered rounded image">
+        <p>After my eventful trip to Berlin, I am now back in Wesel and going to school. The new year has been good so far!</p>
+      </div>
+
+      <A NAME="essay31"></a>
+        <div class="ui raised very padded text container segment">
+          <h2 class="ui header">A Day in Dusseldorf and Oberhausen</h2>
+          <p><img src="images/me.jpg" class="ui avatar image"> <b>Jasper Holton</b> | December 30, 2015</p>
+          <p>I had the opportunity yesterday to spend a day in Dusseldorf and Oberhausen (a few nearby cities) with my host brother Laurenz, his friend Christian, and Christian's friend Victor, visiting from South Korea. We started late morning and drove to Dusseldorf in Christians car, before walking around the city and seeing it's various sites, including the old city and harbor.</p>
+          <img src="images/dusseldorf1.jpg" class="ui large bordered rounded image">
+          <img src="images/dusseldorf2.jpg" class="ui large bordered rounded image">
+          <img src="images/dusseldorf3.jpg" class="ui large bordered rounded image">
+          <p>We also spent some time in the Rheinturm, a 234 meter and 22,500 ton telecommunications tower located near the harbor. We got to see some nice views of the city, despite a bit of fog.</p>
+          <img src="images/dusseldorftower1.jpg" class="ui large bordered rounded image">
+          <img src="images/dusseldorftower2.jpg" class="ui large bordered rounded image">
+          <p>After completing our tour of Dusseldorf, we went to the industrial park in Duisburg. At the heart of the park is an old steel factory that has been outfitted with various walking pathways and information panels and can be explored freely. It was fun to climb around on the structuress and learn a bit about the production of steel. We also got to watch a pretty sunset over Duisburg from the top of the factory.</p>
+          <img src="images/oberhausenpark1.jpg" class="ui large bordered rounded image">
+          <img src="images/oberhausenpark4.jpg" class="ui large bordered rounded image">
+          <img src="images/oberhausenpark5.jpg" class="ui large bordered rounded image">
+          <p>Being as Victor didn't speak any German, we spoke English together for the entire day. This was a bit strange for me, because I barley speak any English normally. I speak entirley in German with my host family and friends, and mostly only speak English with friends back home. Nonetheless, we had a good time in Dusseldorf.</p>
+          <img src="images/oberhausenpark3.jpg" class="ui large bordered rounded image">
+        </div>
+
+
+
+        <!-- ESSAYS END HERE --->
+        <!-- ESSAYS END HERE --->
+        <!-- ESSAYS END HERE --->
+
+        <A NAME="comments"></a>
+          <div class="ui raised very padded text container segment">
             <!-- begin wwww.htmlcommentbox.com -->
             <div id="HCB_comment_box">Comments loading...</div>
             <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
             <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24i9P9gsXcllP7Y9PYaelZZ."+"&opts=16862&num=10&ts=1445087320252");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
             <!-- end www.htmlcommentbox.com -->
-         </div>
+          </div>
 
-         <div class="ui raised very padded text container segment">
-             <div class="ui horizontal center aligned">
-                 <div><h2 class="ui header" style="float: right;"><a href="exchange3.html">Next Page ></a></h2></div>
-             </div>
-         </div>
-   </body>
-   <footer>
-       <div id="footer"></div>
-   </footer>
-   <foot>
-      <script type="text/javascript" src="semantic-ui/jquery-2.1.4.min.js"></script>
-      <script type="text/javascript" src="semantic-ui/semantic.min.js"></script>
-      <script type="text/javascript" src="semantic-ui/components/dropdown.js"></script>
-      <script type="text/javascript" src="semantic-ui/components/accordion.js"></script>
-      <script type="text/javascript" src="index.js"></script>
-      <script type="text/javascript">
-         $('.ui.accordion')
-         .accordion()
-         ;
+          <div class="ui raised very padded text container segment">
+            <div class="ui horizontal center aligned">
+              <div><h2 class="ui header" style="float: right;"><a href="exchange3.html">Next Page ></a></h2></div>
+            </div>
+          </div>
+        </body>
+        <footer>
+          <div id="footer"></div>
+        </footer>
+        <foot>
+          <script type="text/javascript" src="semantic-ui/jquery-2.1.4.min.js"></script>
+          <script type="text/javascript" src="semantic-ui/semantic.min.js"></script>
+          <script type="text/javascript" src="semantic-ui/components/dropdown.js"></script>
+          <script type="text/javascript" src="semantic-ui/components/accordion.js"></script>
+          <script type="text/javascript" src="index.js"></script>
+          <script type="text/javascript">
+          $('.ui.accordion')
+          .accordion()
+          ;
 
-         $('.ui.dropdown')
-         .dropdown()
-         ;
-      </script>
-   </foot>
-</html>
+          $('.ui.dropdown')
+          .dropdown()
+          ;
+          </script>
+        </foot>
+        </html>
